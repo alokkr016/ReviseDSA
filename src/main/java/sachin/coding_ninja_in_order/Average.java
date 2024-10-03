@@ -2,6 +2,8 @@
 
 package sachin.coding_ninja_in_order;
 
+import java.util.Scanner;
+
 public class Average{
 
     public static double averageOfNumbers(int a , int b ,int c) {
@@ -11,8 +13,13 @@ public class Average{
 
 
    public static void main( String  args []){
+
+      Scanner input = new Scanner(System.in);
+      int a = input.nextInt();
+      int b = input.nextInt();
+      int c = input.nextInt();
       
-      System.out.println(averageOfNumbers(1, 2, 3));
+      System.out.println(averageOfNumbers(a, b, c));
    }
 
 }
