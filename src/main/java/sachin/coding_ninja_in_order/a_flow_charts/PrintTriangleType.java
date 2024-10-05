@@ -1,4 +1,4 @@
-package sachin.coding_ninja_in_order;
+package sachin.coding_ninja_in_order.a_flow_charts;
 
 import java.util.Scanner;
 
